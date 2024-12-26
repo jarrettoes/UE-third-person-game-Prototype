@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"F:\\f_game_pt\\Source\\f_game_pt\\f_game_pt.Build.cs",
+		"F:\\f_game_pt\\Source\\f_game_pt.Target.cs",
+		"F:\\f_game_pt\\Source\\f_game_ptEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}

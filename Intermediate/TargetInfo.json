@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "f_game_pt",
+			"Path": "..\\Source\\f_game_pt.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "f_game_ptEditor",
+			"Path": "..\\Source\\f_game_ptEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

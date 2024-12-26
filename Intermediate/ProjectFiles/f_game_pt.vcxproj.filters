@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\f_game_pt.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\f_game_pt.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\f_game_ptEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\f_game_pt">
+      <UniqueIdentifier>{C89E4FDE-16E4-3849-AD92-AD9C2170B153}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\f_game_pt\f_game_pt.Build.cs">
+      <Filter>Source\f_game_pt</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\f_game_pt\f_game_pt.cpp">
+      <Filter>Source\f_game_pt</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\f_game_pt\f_game_pt.h">
+      <Filter>Source\f_game_pt</Filter>
+    </ClInclude>
+    <Filter Include="Source\f_game_pt\Animation">
+      <UniqueIdentifier>{8A23C2BF-B060-3200-BD99-2ADD05B58853}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\f_game_pt\Animation\character_animation.cpp">
+      <Filter>Source\f_game_pt\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\f_game_pt\Animation\character_animation.h">
+      <Filter>Source\f_game_pt\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\f_game_pt\Camera">
+      <UniqueIdentifier>{A3CE55EA-FE0B-371B-B5D2-9EC97D2543C6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\f_game_pt\Camera\players_camera.cpp">
+      <Filter>Source\f_game_pt\Camera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\f_game_pt\Camera\players_camera.h">
+      <Filter>Source\f_game_pt\Camera</Filter>
+    </ClInclude>
+    <Filter Include="Source\f_game_pt\Characters">
+      <UniqueIdentifier>{F19D71F8-66F8-3DCC-9E8F-735F5F631E14}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\f_game_pt\Characters\base_character.cpp">
+      <Filter>Source\f_game_pt\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\f_game_pt\Characters\base_character.h">
+      <Filter>Source\f_game_pt\Characters</Filter>
+    </ClInclude>
+    <Filter Include="Source\f_game_pt\Components">
+      <UniqueIdentifier>{8AE0AE8A-06F3-31BA-8B8B-0D3215BEE242}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\f_game_pt\Components\playerHealth_component.cpp">
+      <Filter>Source\f_game_pt\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\f_game_pt\Components\playerHealth_component.h">
+      <Filter>Source\f_game_pt\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\f_game_pt\Components\playerStamina_component.cpp">
+      <Filter>Source\f_game_pt\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\f_game_pt\Components\playerStamina_component.h">
+      <Filter>Source\f_game_pt\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\f_game_pt\Components\players_attributes.cpp">
+      <Filter>Source\f_game_pt\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\f_game_pt\Components\players_attributes.h">
+      <Filter>Source\f_game_pt\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
